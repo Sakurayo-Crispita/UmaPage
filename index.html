@@ -72,7 +72,7 @@
                 <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">La guía definitiva de comandos. Haz clic en una categoría para ver sus comandos.</p>
             </header>
 
-            <!-- Contenedor del Acordeón (MODIFICADO para usar 2 columnas en pantallas grandes) -->
+            <!-- Contenedor del Acordeón (Reordenado para mejor balance) -->
             <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
 
                 <!-- Columna Izquierda -->
@@ -100,89 +100,6 @@
                         </div>
                     </div>
                     
-                    <!-- Item: Moderación -->
-                    <div class="accordion-item rounded-xl overflow-hidden">
-                        <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
-                            <h2 class="text-2xl font-bold flex items-center text-gray-800"><span class="text-3xl mr-3">🛡️</span> Moderación</h2>
-                            <span class="icon text-3xl font-light text-gray-600">+</span>
-                        </button>
-                        <div class="accordion-content px-6 pb-6">
-                            <div class="space-y-4 pt-4 border-t border-gray-300">
-                                <div><p class="command-name">/clear</p><p class="command-desc">Borra una cantidad específica de mensajes.</p></div>
-                                <div><p class="command-name">/kick</p><p class="command-desc">Expulsa a un miembro del servidor.</p></div>
-                                <div><p class="command-name">/ban</p><p class="command-desc">Banea a un miembro permanentemente.</p></div>
-                                <div><p class="command-name">/unban</p><p class="command-desc">Desbanea a un usuario por su ID.</p></div>
-                                <div><p class="command-name">/timeout</p><p class="command-desc">Silencia a un miembro por un tiempo determinado (ej: 10m, 2h).</p></div>
-                                <div><p class="command-name">/unmute</p><p class="command-desc">Quita el silencio a un miembro.</p></div>
-                                <div><p class="command-name">/mutelist</p><p class="command-desc">Muestra la lista de usuarios silenciados.</p></div>
-                                <div><p class="command-name">/lock</p><p class="command-desc">Bloquea el canal actual para que nadie pueda hablar.</p></div>
-                                <div><p class="command-name">/unlock</p><p class="command-desc">Desbloquea el canal actual.</p></div>
-                                <div><p class="command-name">/warn</p><p class="command-desc">Advierte a un usuario.</p></div>
-                                <div><p class="command-name">/warnings</p><p class="command-desc">Muestra las advertencias de un usuario.</p></div>
-                                <div><p class="command-name">/clearwarnings</p><p class="command-desc">Borra todas las advertencias de un usuario.</p></div>
-                                <div><p class="command-name">/modlogs</p><p class="command-desc">Muestra el historial de moderación de un usuario.</p></div>
-                                <div><p class="command-name">/automod anti_invites</p><p class="command-desc">Activa/desactiva el borrado de invitaciones de Discord.</p></div>
-                                <div><p class="command-name">/automod badwords</p><p class="command-desc">Gestiona la lista de palabras prohibidas.</p></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item: Interacción -->
-                    <div class="accordion-item rounded-xl overflow-hidden">
-                        <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
-                            <h2 class="text-2xl font-bold flex items-center text-gray-800"><span class="text-3xl mr-3">👋</span> Interacción</h2>
-                            <span class="icon text-3xl font-light text-gray-600">+</span>
-                        </button>
-                        <div class="accordion-content px-6 pb-6">
-                            <div class="space-y-4 pt-4 border-t border-gray-300">
-                                <div><p class="command-name">/kiss</p><p class="command-desc">Besa a otro usuario.</p></div>
-                                <div><p class="command-name">/cuddle</p><p class="command-desc">Acurrúcate con otro usuario.</p></div>
-                                <div><p class="command-name">/hug</p><p class="command-desc">Dale un abrazo a alguien.</p></div>
-                                <div><p class="command-name">/pat</p><p class="command-desc">Dale una palmadita en la cabeza.</p></div>
-                                <div><p class="command-name">/slap</p><p class="command-desc">Abofetea a un usuario.</p></div>
-                                <div><p class="command-name">/tickle</p><p class="command-desc">Hazle cosquillas a alguien.</p></div>
-                                <div><p class="command-name">/poke</p><p class="command-desc">Pica a alguien para llamar su atención.</p></div>
-                                <div><p class="command-name">/baka</p><p class="command-desc">Llama 'baka' a alguien.</p></div>
-                                <div><p class="command-name">/highfive</p><p class="command-desc">Choca esos cinco con alguien.</p></div>
-                                <div><p class="command-name">/bonk</p><p class="command-desc">Envía a alguien a la cárcel de los hornys.</p></div>
-                                <div><p class="command-name">/blush</p><p class="command-desc">Sonrójate por alguien o por algo.</p></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item: Texto a Voz -->
-                    <div class="accordion-item rounded-xl overflow-hidden">
-                        <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
-                            <h2 class="text-2xl font-bold flex items-center text-gray-800"><span class="text-3xl mr-3">🔊</span> Texto a Voz</h2>
-                            <span class="icon text-3xl font-light text-gray-600">+</span>
-                        </button>
-                        <div class="accordion-content px-6 pb-6">
-                            <div class="space-y-4 pt-4 border-t border-gray-300">
-                                <div><p class="command-name">/setup_tts</p><p class="command-desc">Configura el bot para leer mensajes en tu canal de voz.</p></div>
-                                <div><p class="command-name">/set_language_tts</p><p class="command-desc">Establece el idioma de la voz del bot.</p></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item: Juegos de Apuestas -->
-                    <div class="accordion-item rounded-xl overflow-hidden">
-                        <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
-                            <h2 class="text-2xl font-bold flex items-center text-gray-800"><span class="text-3xl mr-3">🎲</span> Apuestas</h2>
-                            <span class="icon text-3xl font-light text-gray-600">+</span>
-                        </button>
-                        <div class="accordion-content px-6 pb-6">
-                            <div class="space-y-4 pt-4 border-t border-gray-300">
-                                <div><p class="command-name">/blackjack</p><p class="command-desc">Juega una partida de Blackjack apostando.</p></div>
-                                <div><p class="command-name">/tragamonedas</p><p class="command-desc">Prueba tu suerte en la máquina tragamonedas.</p></div>
-                                <div><p class="command-name">/gambling addchannel</p><p class="command-desc">Permite los juegos de apuestas en un canal.</p></div>
-                                <div><p class="command-name">/gambling removechannel</p><p class="command-desc">Prohíbe los juegos de apuestas en un canal.</p></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Columna Derecha -->
-                <div class="space-y-4">
                     <!-- Item: Música -->
                     <div class="accordion-item rounded-xl overflow-hidden">
                         <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
@@ -246,6 +163,78 @@
                         </div>
                     </div>
 
+                    <!-- Item: Economía -->
+                    <div class="accordion-item rounded-xl overflow-hidden maintenance">
+                        <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
+                            <h2 class="text-2xl font-bold flex items-center text-gray-800"><span class="text-3xl mr-3">💰</span> Economía</h2>
+                            <span class="icon text-3xl font-light text-gray-600">+</span>
+                        </button>
+                        <div class="accordion-content px-6 pb-6">
+                            <p class="text-sm text-yellow-600 mb-4 font-semibold">(Actualmente en mantenimiento)</p>
+                            <div class="space-y-4 pt-4 border-t border-gray-300">
+                                <div><p class="command-name">/balance</p><p class="command-desc">Muestra tu balance de cartera y banco.</p></div>
+                                <div><p class="command-name">/daily</p><p class="command-desc">Reclama tu recompensa diaria.</p></div>
+                                <div><p class="command-name">/work</p><p class="command-desc">Trabaja para ganar un dinero extra.</p></div>
+                                <div><p class="command-name">/rob</p><p class="command-desc">Intenta robarle a otro usuario.</p></div>
+                                <div><p class="command-name">/give</p><p class="command-desc">Transfiere dinero a otro usuario.</p></div>
+                                <div><p class="command-name">/leaderboard</p><p class="command-desc">Muestra a los usuarios más ricos del servidor.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna Derecha -->
+                <div class="space-y-4">
+                    <!-- Item: Moderación -->
+                    <div class="accordion-item rounded-xl overflow-hidden">
+                        <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
+                            <h2 class="text-2xl font-bold flex items-center text-gray-800"><span class="text-3xl mr-3">🛡️</span> Moderación</h2>
+                            <span class="icon text-3xl font-light text-gray-600">+</span>
+                        </button>
+                        <div class="accordion-content px-6 pb-6">
+                            <div class="space-y-4 pt-4 border-t border-gray-300">
+                                <div><p class="command-name">/clear</p><p class="command-desc">Borra una cantidad específica de mensajes.</p></div>
+                                <div><p class="command-name">/kick</p><p class="command-desc">Expulsa a un miembro del servidor.</p></div>
+                                <div><p class="command-name">/ban</p><p class="command-desc">Banea a un miembro permanentemente.</p></div>
+                                <div><p class="command-name">/unban</p><p class="command-desc">Desbanea a un usuario por su ID.</p></div>
+                                <div><p class="command-name">/timeout</p><p class="command-desc">Silencia a un miembro por un tiempo determinado (ej: 10m, 2h).</p></div>
+                                <div><p class="command-name">/unmute</p><p class="command-desc">Quita el silencio a un miembro.</p></div>
+                                <div><p class="command-name">/mutelist</p><p class="command-desc">Muestra la lista de usuarios silenciados.</p></div>
+                                <div><p class="command-name">/lock</p><p class="command-desc">Bloquea el canal actual para que nadie pueda hablar.</p></div>
+                                <div><p class="command-name">/unlock</p><p class="command-desc">Desbloquea el canal actual.</p></div>
+                                <div><p class="command-name">/warn</p><p class="command-desc">Advierte a un usuario.</p></div>
+                                <div><p class="command-name">/warnings</p><p class="command-desc">Muestra las advertencias de un usuario.</p></div>
+                                <div><p class="command-name">/clearwarnings</p><p class="command-desc">Borra todas las advertencias de un usuario.</p></div>
+                                <div><p class="command-name">/modlogs</p><p class="command-desc">Muestra el historial de moderación de un usuario.</p></div>
+                                <div><p class="command-name">/automod anti_invites</p><p class="command-desc">Activa/desactiva el borrado de invitaciones de Discord.</p></div>
+                                <div><p class="command-name">/automod badwords</p><p class="command-desc">Gestiona la lista de palabras prohibidas.</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item: Interacción -->
+                    <div class="accordion-item rounded-xl overflow-hidden">
+                        <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
+                            <h2 class="text-2xl font-bold flex items-center text-gray-800"><span class="text-3xl mr-3">👋</span> Interacción</h2>
+                            <span class="icon text-3xl font-light text-gray-600">+</span>
+                        </button>
+                        <div class="accordion-content px-6 pb-6">
+                            <div class="space-y-4 pt-4 border-t border-gray-300">
+                                <div><p class="command-name">/kiss</p><p class="command-desc">Besa a otro usuario.</p></div>
+                                <div><p class="command-name">/cuddle</p><p class="command-desc">Acurrúcate con otro usuario.</p></div>
+                                <div><p class="command-name">/hug</p><p class="command-desc">Dale un abrazo a alguien.</p></div>
+                                <div><p class="command-name">/pat</p><p class="command-desc">Dale una palmadita en la cabeza.</p></div>
+                                <div><p class="command-name">/slap</p><p class="command-desc">Abofetea a un usuario.</p></div>
+                                <div><p class="command-name">/tickle</p><p class="command-desc">Hazle cosquillas a alguien.</p></div>
+                                <div><p class="command-name">/poke</p><p class="command-desc">Pica a alguien para llamar su atención.</p></div>
+                                <div><p class="command-name">/baka</p><p class="command-desc">Llama 'baka' a alguien.</p></div>
+                                <div><p class="command-name">/highfive</p><p class="command-desc">Choca esos cinco con alguien.</p></div>
+                                <div><p class="command-name">/bonk</p><p class="command-desc">Envía a alguien a la cárcel de los hornys.</p></div>
+                                <div><p class="command-name">/blush</p><p class="command-desc">Sonrójate por alguien o por algo.</p></div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Item: Utilidad -->
                     <div class="accordion-item rounded-xl overflow-hidden">
                         <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
@@ -266,28 +255,45 @@
                         </div>
                     </div>
 
-                    <!-- Item: Economía -->
-                    <div class="accordion-item rounded-xl overflow-hidden maintenance">
+                    <!-- Item: Texto a Voz -->
+                    <div class="accordion-item rounded-xl overflow-hidden">
                         <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
-                            <h2 class="text-2xl font-bold flex items-center text-gray-800"><span class="text-3xl mr-3">💰</span> Economía</h2>
+                            <h2 class="text-2xl font-bold flex items-center text-gray-800"><span class="text-3xl mr-3">🔊</span> Texto a Voz</h2>
                             <span class="icon text-3xl font-light text-gray-600">+</span>
                         </button>
                         <div class="accordion-content px-6 pb-6">
-                            <p class="text-sm text-yellow-600 mb-4 font-semibold">(Actualmente en mantenimiento)</p>
                             <div class="space-y-4 pt-4 border-t border-gray-300">
-                                <div><p class="command-name">/balance</p><p class="command-desc">Muestra tu balance de cartera y banco.</p></div>
-                                <div><p class="command-name">/daily</p><p class="command-desc">Reclama tu recompensa diaria.</p></div>
-                                <div><p class="command-name">/work</p><p class="command-desc">Trabaja para ganar un dinero extra.</p></div>
-                                <div><p class="command-name">/rob</p><p class="command-desc">Intenta robarle a otro usuario.</p></div>
-                                <div><p class="command-name">/give</p><p class="command-desc">Transfiere dinero a otro usuario.</p></div>
-                                <div><p class="command-name">/leaderboard</p><p class="command-desc">Muestra a los usuarios más ricos del servidor.</p></div>
+                                <div><p class="command-name">/setup_tts</p><p class="command-desc">Configura el bot para leer mensajes en tu canal de voz.</p></div>
+                                <div><p class="command-name">/set_language_tts</p><p class="command-desc">Establece el idioma de la voz del bot.</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item: Juegos de Apuestas -->
+                    <div class="accordion-item rounded-xl overflow-hidden">
+                        <button class="accordion-button w-full text-left p-6 flex justify-between items-center">
+                            <h2 class="text-2xl font-bold flex items-center text-gray-800"><span class="text-3xl mr-3">🎲</span> Apuestas</h2>
+                            <span class="icon text-3xl font-light text-gray-600">+</span>
+                        </button>
+                        <div class="accordion-content px-6 pb-6">
+                            <div class="space-y-4 pt-4 border-t border-gray-300">
+                                <div><p class="command-name">/blackjack</p><p class="command-desc">Juega una partida de Blackjack apostando.</p></div>
+                                <div><p class="command-name">/tragamonedas</p><p class="command-desc">Prueba tu suerte en la máquina tragamonedas.</p></div>
+                                <div><p class="command-name">/gambling addchannel</p><p class="command-desc">Permite los juegos de apuestas en un canal.</p></div>
+                                <div><p class="command-name">/gambling removechannel</p><p class="command-desc">Prohíbe los juegos de apuestas en un canal.</p></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-            <footer class="text-center mt-12 text-gray-300">
+            </div>
+
+            <footer class="text-center mt-12 text-gray-300 space-y-2">
                 <p>&copy; 2025 Umapyoi Bot. Creado con ❤️ por Sakurayo.</p>
+                <p>
+                    <a href="https://discord.gg/75HHEkh6pN" target="_blank" class="text-pink-400 hover:underline">
+                        Únete a nuestro servidor de Soporte en Discord
+                    </a>
+                </p>
             </footer>
         </div>
     </div>
